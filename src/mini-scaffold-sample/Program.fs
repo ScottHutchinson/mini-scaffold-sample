@@ -1,10 +1,10 @@
-namespace miniscaffoldsample
+module MiniScaffoldSample
 
 module Say =
     let hello name =
         sprintf "Hello %s" name
 
-// [<EntryPoint>]
-// let main argv =
-//     printfn "%s from Mini Scaffold!" <| hello "World"
-//     0 // return an integer exit code
+[<EntryPoint>]
+let main _ =
+    printfn "%s from Mini Scaffold!" <| Say.hello "World"
+    0 // return an integer exit code

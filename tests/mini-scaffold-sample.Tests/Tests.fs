@@ -1,7 +1,7 @@
 module Tests
 
 open Expecto
-open miniscaffoldsample
+open MiniScaffoldSample
 
 [<Tests>]
 let tests =
