@@ -1,0 +1,40 @@
+C:.
+│   .DS_Store
+│   .editorconfig
+│   .gitignore
+│   .travis.yml
+│   appveyor.yml
+│   build.cmd
+│   build.fsx
+│   build.sh
+│   LICENSE.md
+│   mini-scaffold-sample.sln
+│   paket.dependencies
+│   paket.lock
+│   README.md
+│   RELEASE_NOTES.md
+│
+├───.github
+│       ISSUE_TEMPLATE.md
+│       PULL_REQUEST_TEMPLATE.md
+│
+├───.paket
+│       paket.exe
+│       paket.exe.config
+│       Paket.Restore.targets
+│       paket.targets
+│
+├───src
+│   └───mini-scaffold-sample
+│           AssemblyInfo.fs
+│           Library.fs
+│           mini-scaffold-sample.fsproj
+│           paket.references
+│
+└───tests
+    └───mini-scaffold-sample.Tests
+            AssemblyInfo.fs
+            Main.fs
+            mini-scaffold-sample.Tests.fsproj
+            paket.references
+            Tests.fs
