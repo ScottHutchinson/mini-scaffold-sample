@@ -18,16 +18,15 @@ This sample demonstrates how to use the MiniScaffold template to create an F# co
 5. Change the namespace to a module instead.
 
 6. Add this function:  
-    &nbsp;&nbsp;&nbsp;&nbsp;```[<EntryPoint>]
-    let main argv =
-        printfn "Hello World from Mini Scaffold!"
-        0 // return an integer exit code
-    ```  
+    &nbsp;&nbsp;&nbsp;&nbsp;```[<EntryPoint>]  
+    let main argv =  
+        printfn "Hello World from Mini Scaffold!"  
+        0 // return an integer exit code```  
+7. Change the target framework from multiple targets to a single target:  
+    &nbsp;&nbsp;&nbsp;&nbsp;```<TargetFramework>netcoreapp2.0</TargetFramework>```  
 
-7. Add this line to the top of the paket.dependencies file to specify a particular version of paket:  
+8. Add this line to the top of the paket.dependencies file to specify a particular version of paket:  
     &nbsp;&nbsp;&nbsp;&nbsp;```version 5.148.0```  
-
-8.
 
 ## Related links  
 
