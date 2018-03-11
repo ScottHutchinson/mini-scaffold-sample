@@ -30,5 +30,7 @@ This sample demonstrates how to use the MiniScaffold template to create an F# co
 
 ## Related links  
 
+https://github.com/TheAngryByrd/MiniScaffold
+
 https://fsprojects.github.io/Paket/bootstrapper.html#Magic-mode
 
